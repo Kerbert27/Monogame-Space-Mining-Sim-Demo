@@ -46,3 +46,7 @@ C:\Users\tyler\Downloads\CPI311_Fall2025\CPI311_Fall2025\Final\bin\Debug\net8.0-
 C:\Users\tyler\Downloads\CPI311_Fall2025\CPI311_Fall2025\Final\bin\Debug\net8.0-windows\Content\Rocks.xnb
 C:\Users\tyler\Downloads\CPI311_Fall2025\CPI311_Fall2025\Final\bin\Debug\net8.0-windows\Content\font.xnb
 C:\Users\tyler\Downloads\CPI311_Fall2025\CPI311_Fall2025\Final\bin\Debug\net8.0-windows\Content\AtmosphereShader.xnb
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\Final\obj\Debug\net8.0-windows\mgcb.tool.restore
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\Final\obj\Debug\net8.0-windows\Final.dll
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\Final\obj\Debug\net8.0-windows\refint\Final.dll
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\Final\obj\Debug\net8.0-windows\Final.pdb

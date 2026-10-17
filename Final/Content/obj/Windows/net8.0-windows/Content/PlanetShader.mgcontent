@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/PlanetShader.fx</SourceFile>
-  <SourceTime>2025-12-13T01:41:10.1007274-07:00</SourceTime>
-  <DestFile>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/bin/Windows/Content/PlanetShader.xnb</DestFile>
-  <DestTime>2025-12-13T01:41:14.1846891-07:00</DestTime>
+  <SourceFile>C:/Users/Tyler/Source/Repos/Monogame-Space-Mining-Sim-Demo/Final/Content/PlanetShader.fx</SourceFile>
+  <SourceTime>2026-10-17T16:20:32.430478-07:00</SourceTime>
+  <DestFile>C:/Users/Tyler/Source/Repos/Monogame-Space-Mining-Sim-Demo/Final/Content/bin/Windows/Content/PlanetShader.xnb</DestFile>
+  <DestTime>2026-10-17T16:24:52.5402165-07:00</DestTime>
   <Importer>EffectImporter</Importer>
   <ImporterTime>2025-06-02T03:31:02-07:00</ImporterTime>
   <Processor>EffectProcessor</Processor>

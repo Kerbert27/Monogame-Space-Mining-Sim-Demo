@@ -22,3 +22,12 @@ C:\Users\tyler\Downloads\CPI311_Fall2025\CPI311_Fall2025\GameEngine\obj\Debug\ne
 C:\Users\tyler\Downloads\CPI311_Fall2025\CPI311_Fall2025\GameEngine\obj\Debug\net8.0-windows\GameEngine.AssemblyInfo.cs
 C:\Users\tyler\Downloads\CPI311_Fall2025\CPI311_Fall2025\GameEngine\obj\Debug\net8.0-windows\GameEngine.csproj.CoreCompileInputs.cache
 C:\Users\tyler\Downloads\CPI311_Fall2025\CPI311_Fall2025\GameEngine\obj\Debug\net8.0-windows\ref\GameEngine.dll
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\GameEngine\obj\Debug\net8.0-windows\GameEngine.csproj.AssemblyReference.cache
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\GameEngine\obj\Debug\net8.0-windows\GameEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\GameEngine\obj\Debug\net8.0-windows\GameEngine.AssemblyInfoInputs.cache
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\GameEngine\obj\Debug\net8.0-windows\GameEngine.AssemblyInfo.cs
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\GameEngine\obj\Debug\net8.0-windows\GameEngine.csproj.CoreCompileInputs.cache
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\GameEngine\obj\Debug\net8.0-windows\GameEngine.sourcelink.json
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\GameEngine\obj\Debug\net8.0-windows\GameEngine.dll
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\GameEngine\obj\Debug\net8.0-windows\refint\GameEngine.dll
+C:\Users\Tyler\Source\Repos\Monogame-Space-Mining-Sim-Demo\GameEngine\obj\Debug\net8.0-windows\GameEngine.pdb

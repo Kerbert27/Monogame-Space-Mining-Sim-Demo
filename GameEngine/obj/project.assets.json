@@ -429,7 +429,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "MonoGame.Content.Builder.Task/3.8.4.1": {
+      "MonoGame.Content.Builder.Task/3.8.6": {
         "type": "package",
         "build": {
           "build/MonoGame.Content.Builder.Task.props": {},
@@ -475,20 +475,16 @@
           "build/MonoGame.Framework.Compute.WindowsDX.targets": {}
         }
       },
-      "MonoGame.Framework.WindowsDX/3.8.4.1": {
+      "MonoGame.Framework.WindowsDX/3.8.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.App": "2.1.30",
-          "Microsoft.NETCore.Jit": "2.0.8",
-          "SharpDX": "4.0.1",
-          "SharpDX.DXGI": "4.0.1",
-          "SharpDX.Direct2D1": "4.0.1",
-          "SharpDX.Direct3D11": "4.0.1",
-          "SharpDX.MediaFoundation": "4.0.1",
-          "SharpDX.XAudio2": "4.0.1",
-          "SharpDX.XInput": "4.0.1",
-          "System.Net.Http": "4.3.4",
-          "System.Security.Cryptography.X509Certificates": "4.3.2"
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct2D1": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0",
+          "SharpDX.MediaFoundation": "4.2.0",
+          "SharpDX.XAudio2": "4.2.0",
+          "SharpDX.XInput": "4.2.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MonoGame.Framework.dll": {
@@ -680,160 +676,124 @@
           }
         }
       },
-      "SharpDX/4.0.1": {
+      "SharpDX/4.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.App": "1.0.5"
+          "NETStandard.Library": "1.6.1"
         },
         "compile": {
-          "lib/netcoreapp1.0/SharpDX.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.dll": {
+            "related": ".pdb"
           }
         },
         "runtime": {
-          "lib/netcoreapp1.0/SharpDX.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.dll": {
+            "related": ".pdb"
           }
         }
       },
-      "SharpDX.Direct2D1/4.0.1": {
+      "SharpDX.Direct2D1/4.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.App": "1.0.5",
-          "SharpDX": "4.0.1",
-          "SharpDX.DXGI": "4.0.1"
+          "NETStandard.Library": "1.6.1",
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
         },
         "compile": {
-          "lib/netcoreapp1.0/SharpDX.Direct2D1.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.Direct2D1.dll": {
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp1.0/SharpDX.Direct2D1.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.Direct2D1.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
-      "SharpDX.Direct3D11/4.0.1": {
+      "SharpDX.Direct3D11/4.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.App": "1.0.5",
-          "SharpDX": "4.0.1",
-          "SharpDX.DXGI": "4.0.1"
+          "NETStandard.Library": "1.6.1",
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
         },
         "compile": {
-          "lib/netcoreapp1.0/SharpDX.Direct3D11.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.Direct3D11.dll": {
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp1.0/SharpDX.Direct3D11.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.Direct3D11.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
-      "SharpDX.Direct3D9/4.0.1": {
+      "SharpDX.DXGI/4.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.App": "1.0.5",
-          "SharpDX": "4.0.1"
+          "NETStandard.Library": "1.6.1",
+          "SharpDX": "4.2.0"
         },
         "compile": {
-          "lib/netcoreapp1.0/SharpDX.Direct3D9.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.DXGI.dll": {
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp1.0/SharpDX.Direct3D9.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.DXGI.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
-      "SharpDX.DXGI/4.0.1": {
+      "SharpDX.MediaFoundation/4.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.App": "1.0.5",
-          "SharpDX": "4.0.1"
+          "NETStandard.Library": "1.6.1",
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
         },
         "compile": {
-          "lib/netcoreapp1.0/SharpDX.DXGI.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.MediaFoundation.dll": {
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp1.0/SharpDX.DXGI.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.MediaFoundation.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
-      "SharpDX.Mathematics/4.0.1": {
+      "SharpDX.XAudio2/4.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.App": "1.0.5",
-          "SharpDX": "4.0.1"
+          "NETStandard.Library": "1.6.1",
+          "SharpDX": "4.2.0"
         },
         "compile": {
-          "lib/netcoreapp1.0/SharpDX.Mathematics.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.XAudio2.dll": {
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp1.0/SharpDX.Mathematics.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.XAudio2.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
-      "SharpDX.MediaFoundation/4.0.1": {
+      "SharpDX.XInput/4.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.App": "1.0.5",
-          "SharpDX": "4.0.1",
-          "SharpDX.DXGI": "4.0.1",
-          "SharpDX.Direct3D9": "4.0.1",
-          "SharpDX.Mathematics": "4.0.1"
+          "NETStandard.Library": "1.6.1",
+          "SharpDX": "4.2.0"
         },
         "compile": {
-          "lib/netcoreapp1.0/SharpDX.MediaFoundation.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.XInput.dll": {
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp1.0/SharpDX.MediaFoundation.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SharpDX.XAudio2/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.App": "1.0.5",
-          "SharpDX": "4.0.1"
-        },
-        "compile": {
-          "lib/netcoreapp1.0/SharpDX.XAudio2.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp1.0/SharpDX.XAudio2.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SharpDX.XInput/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.App": "1.0.5",
-          "SharpDX": "4.0.1"
-        },
-        "compile": {
-          "lib/netcoreapp1.0/SharpDX.XInput.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp1.0/SharpDX.XInput.dll": {
-            "related": ".xml"
+          "lib/netstandard1.1/SharpDX.XInput.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1827,17 +1787,17 @@
         "version.txt"
       ]
     },
-    "MonoGame.Content.Builder.Task/3.8.4.1": {
-      "sha512": "jf6IZXMiOhuybRaWQt//u+804yzMRGk3ZRvlBJG/0iusRwTunJsQvA6tMMJJc7gjUrY6rUkzRqwinKWXugyHfA==",
+    "MonoGame.Content.Builder.Task/3.8.6": {
+      "sha512": "YzlwPtEGn5wlxToias3I/dW7ZyRJZLr2uMYKgrkwm/gpYyxWg4eI9f5+ih2CdLoCm5Daqvpf8w5PvwwzGsR1Og==",
       "type": "package",
-      "path": "monogame.content.builder.task/3.8.4.1",
+      "path": "monogame.content.builder.task/3.8.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "build/MonoGame.Content.Builder.Task.props",
         "build/MonoGame.Content.Builder.Task.targets",
-        "monogame.content.builder.task.3.8.4.1.nupkg.sha512",
+        "monogame.content.builder.task.3.8.6.nupkg.sha512",
         "monogame.content.builder.task.nuspec"
       ]
     },
@@ -1870,10 +1830,10 @@
         "monogame.framework.compute.windowsdx.nuspec"
       ]
     },
-    "MonoGame.Framework.WindowsDX/3.8.4.1": {
-      "sha512": "n51FqxPpLjuxcFhCGntWwnpAk2hciw+EZcHXXAzsiRxLLr0B+5/sHkK8WxjTSlkDuuoXTfFpmDShGnKssOCS4g==",
+    "MonoGame.Framework.WindowsDX/3.8.6": {
+      "sha512": "bMUpkVWdm/URiBDLJGnEmrRnfrNEd5rvFVK8QteWDmewUcwOFGSYfTS9ADXWdKs+1j1wWRe8UUv3dzdLRA9f+A==",
       "type": "package",
-      "path": "monogame.framework.windowsdx/3.8.4.1",
+      "path": "monogame.framework.windowsdx/3.8.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1882,7 +1842,7 @@
         "build/MonoGame.Framework.WindowsDX.targets",
         "lib/net8.0-windows7.0/MonoGame.Framework.dll",
         "lib/net8.0-windows7.0/MonoGame.Framework.xml",
-        "monogame.framework.windowsdx.3.8.4.1.nupkg.sha512",
+        "monogame.framework.windowsdx.3.8.6.nupkg.sha512",
         "monogame.framework.windowsdx.nuspec"
       ]
     },
@@ -2225,198 +2185,171 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "SharpDX/4.0.1": {
-      "sha512": "8YA1VFg1/K8Emb8FEZDobojcv1BLuppVo7CRJQEgA1V748VIMPBru0i0OnsCjLSThzTn7juOvH85qjFL9Grl1w==",
+    "SharpDX/4.2.0": {
+      "sha512": "3pv0LFMvfK/dv1qISJnn8xBeeT6R/FRvr0EV4KI2DGsL84Qlv6P7isWqxGyU0LCwlSVCJN3jgHJ4Bl0KI2PJww==",
       "type": "package",
-      "path": "sharpdx/4.0.1",
+      "path": "sharpdx/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "lib/net40/.xml",
         "lib/net40/SharpDX.dll",
-        "lib/net40/SharpDX.xml",
+        "lib/net40/SharpDX.pdb",
+        "lib/net45/.xml",
         "lib/net45/SharpDX.dll",
-        "lib/net45/SharpDX.xml",
-        "lib/netcoreapp1.0/SharpDX.dll",
-        "lib/netcoreapp1.0/SharpDX.xml",
+        "lib/net45/SharpDX.pdb",
+        "lib/netstandard1.1/.xml",
         "lib/netstandard1.1/SharpDX.dll",
-        "lib/netstandard1.1/SharpDX.xml",
+        "lib/netstandard1.1/SharpDX.pdb",
+        "lib/uap10.0/.xml",
         "lib/uap10.0/SharpDX.dll",
+        "lib/uap10.0/SharpDX.pdb",
         "lib/uap10.0/SharpDX.pri",
-        "lib/uap10.0/SharpDX.xml",
-        "sharpdx.4.0.1.nupkg.sha512",
+        "sharpdx.4.2.0.nupkg.sha512",
         "sharpdx.nuspec"
       ]
     },
-    "SharpDX.Direct2D1/4.0.1": {
-      "sha512": "EDBYa9kAG+gaMB4cCH7WNpxS8WijSCejNz/SERs2P1sWEPZZdUiUIruQMjPCdW3lXxT508aYiH2UXHAaZtk00g==",
+    "SharpDX.Direct2D1/4.2.0": {
+      "sha512": "Qs8LzDMaQf1u3KB8ArHu9pDv6itZ++QXs99a/bVAG+nKr0Hx5NG4mcN5vsfE0mVR2TkeHfeUm4PksRah6VUPtA==",
       "type": "package",
-      "path": "sharpdx.direct2d1/4.0.1",
+      "path": "sharpdx.direct2d1/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/SharpDX.Direct2D1.dll",
+        "lib/net40/SharpDX.Direct2D1.pdb",
         "lib/net40/SharpDX.Direct2D1.xml",
         "lib/net45/SharpDX.Direct2D1.dll",
+        "lib/net45/SharpDX.Direct2D1.pdb",
         "lib/net45/SharpDX.Direct2D1.xml",
-        "lib/netcoreapp1.0/SharpDX.Direct2D1.dll",
-        "lib/netcoreapp1.0/SharpDX.Direct2D1.xml",
         "lib/netstandard1.1/SharpDX.Direct2D1.dll",
+        "lib/netstandard1.1/SharpDX.Direct2D1.pdb",
         "lib/netstandard1.1/SharpDX.Direct2D1.xml",
         "lib/uap10.0/SharpDX.Direct2D1.dll",
+        "lib/uap10.0/SharpDX.Direct2D1.pdb",
         "lib/uap10.0/SharpDX.Direct2D1.pri",
         "lib/uap10.0/SharpDX.Direct2D1.xml",
-        "sharpdx.direct2d1.4.0.1.nupkg.sha512",
+        "sharpdx.direct2d1.4.2.0.nupkg.sha512",
         "sharpdx.direct2d1.nuspec"
       ]
     },
-    "SharpDX.Direct3D11/4.0.1": {
-      "sha512": "7xIfeAhxPhbPgSiREfFbOOwIWonUt2GHR7XZN5p2DJMWuqjl0+h1oo2/sF+SH/c6D6APjdbt0J+dYSzoV0PA/w==",
+    "SharpDX.Direct3D11/4.2.0": {
+      "sha512": "oTm/iT5X/IIuJ8kNYP+DTC/MhBhqtRF5dbgPPFgLBdQv0BKzNTzXQQXd7SveBFjQg6hXEAJ2jGCAzNYvGFc9LA==",
       "type": "package",
-      "path": "sharpdx.direct3d11/4.0.1",
+      "path": "sharpdx.direct3d11/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/SharpDX.Direct3D11.dll",
+        "lib/net40/SharpDX.Direct3D11.pdb",
         "lib/net40/SharpDX.Direct3D11.xml",
         "lib/net45/SharpDX.Direct3D11.dll",
+        "lib/net45/SharpDX.Direct3D11.pdb",
         "lib/net45/SharpDX.Direct3D11.xml",
-        "lib/netcoreapp1.0/SharpDX.Direct3D11.dll",
-        "lib/netcoreapp1.0/SharpDX.Direct3D11.xml",
         "lib/netstandard1.1/SharpDX.Direct3D11.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D11.pdb",
         "lib/netstandard1.1/SharpDX.Direct3D11.xml",
         "lib/uap10.0/SharpDX.Direct3D11.dll",
+        "lib/uap10.0/SharpDX.Direct3D11.pdb",
         "lib/uap10.0/SharpDX.Direct3D11.pri",
         "lib/uap10.0/SharpDX.Direct3D11.xml",
-        "sharpdx.direct3d11.4.0.1.nupkg.sha512",
+        "sharpdx.direct3d11.4.2.0.nupkg.sha512",
         "sharpdx.direct3d11.nuspec"
       ]
     },
-    "SharpDX.Direct3D9/4.0.1": {
-      "sha512": "xUgVtuy3UGljCjzPe1d0yndNI+htHnpCUcMk1QpmXZHwxudUGtes1iz18JD2Zy5Xx7VzFp2+guOGWkNrJmIgEA==",
+    "SharpDX.DXGI/4.2.0": {
+      "sha512": "UjKqkgWc8U+SP+j3LBzFP6OB6Ntapjih7Xo+g1rLcsGbIb5KwewBrBChaUu7sil8rWoeVU/k0EJd3SMN4VqNZw==",
       "type": "package",
-      "path": "sharpdx.direct3d9/4.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/SharpDX.Direct3D9.dll",
-        "lib/net40/SharpDX.Direct3D9.xml",
-        "lib/net45/SharpDX.Direct3D9.dll",
-        "lib/net45/SharpDX.Direct3D9.xml",
-        "lib/netcoreapp1.0/SharpDX.Direct3D9.dll",
-        "lib/netcoreapp1.0/SharpDX.Direct3D9.xml",
-        "lib/netstandard1.3/SharpDX.Direct3D9.dll",
-        "lib/netstandard1.3/SharpDX.Direct3D9.xml",
-        "sharpdx.direct3d9.4.0.1.nupkg.sha512",
-        "sharpdx.direct3d9.nuspec"
-      ]
-    },
-    "SharpDX.DXGI/4.0.1": {
-      "sha512": "Av/kToUkVR1tDtIP9zmDGwCuCtyL04+PP7kes6aABzky1Y9vT03kR7mDeE83gl+E8GUmMMbVXbQ4AG2CVb66sg==",
-      "type": "package",
-      "path": "sharpdx.dxgi/4.0.1",
+      "path": "sharpdx.dxgi/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/SharpDX.DXGI.dll",
+        "lib/net40/SharpDX.DXGI.pdb",
         "lib/net40/SharpDX.DXGI.xml",
         "lib/net45/SharpDX.DXGI.dll",
+        "lib/net45/SharpDX.DXGI.pdb",
         "lib/net45/SharpDX.DXGI.xml",
-        "lib/netcoreapp1.0/SharpDX.DXGI.dll",
-        "lib/netcoreapp1.0/SharpDX.DXGI.xml",
         "lib/netstandard1.1/SharpDX.DXGI.dll",
+        "lib/netstandard1.1/SharpDX.DXGI.pdb",
         "lib/netstandard1.1/SharpDX.DXGI.xml",
         "lib/uap10.0/SharpDX.DXGI.dll",
+        "lib/uap10.0/SharpDX.DXGI.pdb",
         "lib/uap10.0/SharpDX.DXGI.pri",
         "lib/uap10.0/SharpDX.DXGI.xml",
-        "sharpdx.dxgi.4.0.1.nupkg.sha512",
+        "sharpdx.dxgi.4.2.0.nupkg.sha512",
         "sharpdx.dxgi.nuspec"
       ]
     },
-    "SharpDX.Mathematics/4.0.1": {
-      "sha512": "txMROd5A4mICHRRPf5KHA5MVNEqFUdOg2ZYfqNqjQM1n2jfe+sxDG3Xs+aO5zAShJAZFD6xO5R7yGfn9CzHckQ==",
+    "SharpDX.MediaFoundation/4.2.0": {
+      "sha512": "HRf6EU+LyqZN7pETlVhxKkpz2E2p9oGPgFcCZ0t7+S6gnrE9qw49Po69t2YeWo6/MT3APh2Fja7hLNB6Yq36cg==",
       "type": "package",
-      "path": "sharpdx.mathematics/4.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/SharpDX.Mathematics.dll",
-        "lib/net40/SharpDX.Mathematics.xml",
-        "lib/net45/SharpDX.Mathematics.dll",
-        "lib/net45/SharpDX.Mathematics.xml",
-        "lib/netcoreapp1.0/SharpDX.Mathematics.dll",
-        "lib/netcoreapp1.0/SharpDX.Mathematics.xml",
-        "lib/netstandard1.1/SharpDX.Mathematics.dll",
-        "lib/netstandard1.1/SharpDX.Mathematics.xml",
-        "lib/uap10.0/SharpDX.Mathematics.dll",
-        "lib/uap10.0/SharpDX.Mathematics.pri",
-        "lib/uap10.0/SharpDX.Mathematics.xml",
-        "sharpdx.mathematics.4.0.1.nupkg.sha512",
-        "sharpdx.mathematics.nuspec"
-      ]
-    },
-    "SharpDX.MediaFoundation/4.0.1": {
-      "sha512": "/po30bqI6n14db6eHirTLJYEVV8/Wi0DGn2OJGtEnf5/++jUOhMR5Z1Xi84wOldXgf+7WKXOML2BhpqCPWVC2g==",
-      "type": "package",
-      "path": "sharpdx.mediafoundation/4.0.1",
+      "path": "sharpdx.mediafoundation/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/SharpDX.MediaFoundation.dll",
+        "lib/net40/SharpDX.MediaFoundation.pdb",
         "lib/net40/SharpDX.MediaFoundation.xml",
         "lib/net45/SharpDX.MediaFoundation.dll",
+        "lib/net45/SharpDX.MediaFoundation.pdb",
         "lib/net45/SharpDX.MediaFoundation.xml",
-        "lib/netcoreapp1.0/SharpDX.MediaFoundation.dll",
-        "lib/netcoreapp1.0/SharpDX.MediaFoundation.xml",
         "lib/netstandard1.1/SharpDX.MediaFoundation.dll",
+        "lib/netstandard1.1/SharpDX.MediaFoundation.pdb",
         "lib/netstandard1.1/SharpDX.MediaFoundation.xml",
         "lib/uap10.0/SharpDX.MediaFoundation.dll",
+        "lib/uap10.0/SharpDX.MediaFoundation.pdb",
         "lib/uap10.0/SharpDX.MediaFoundation.pri",
         "lib/uap10.0/SharpDX.MediaFoundation.xml",
-        "sharpdx.mediafoundation.4.0.1.nupkg.sha512",
+        "sharpdx.mediafoundation.4.2.0.nupkg.sha512",
         "sharpdx.mediafoundation.nuspec"
       ]
     },
-    "SharpDX.XAudio2/4.0.1": {
-      "sha512": "Kok1XdV2vEKSdr+EcGf0xFNBAd1tcjp/TZeRNBNVgB5YYoUGASoNO2decCBi7vh9qdocN+pmuuOiZCtDOd9DgQ==",
+    "SharpDX.XAudio2/4.2.0": {
+      "sha512": "Q3fFjN8iumvCjIXioHYqfGKUNGFN8FjdmAtRfyZ+7KHnWjeA22WOKeeVxdm429le+gOTgN+9P51wfAJjwAPdHQ==",
       "type": "package",
-      "path": "sharpdx.xaudio2/4.0.1",
+      "path": "sharpdx.xaudio2/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/SharpDX.XAudio2.dll",
+        "lib/net40/SharpDX.XAudio2.pdb",
         "lib/net40/SharpDX.XAudio2.xml",
         "lib/net45/SharpDX.XAudio2.dll",
+        "lib/net45/SharpDX.XAudio2.pdb",
         "lib/net45/SharpDX.XAudio2.xml",
-        "lib/netcoreapp1.0/SharpDX.XAudio2.dll",
-        "lib/netcoreapp1.0/SharpDX.XAudio2.xml",
         "lib/netstandard1.1/SharpDX.XAudio2.dll",
+        "lib/netstandard1.1/SharpDX.XAudio2.pdb",
         "lib/netstandard1.1/SharpDX.XAudio2.xml",
         "lib/uap10.0/SharpDX.XAudio2.dll",
+        "lib/uap10.0/SharpDX.XAudio2.pdb",
         "lib/uap10.0/SharpDX.XAudio2.pri",
         "lib/uap10.0/SharpDX.XAudio2.xml",
-        "sharpdx.xaudio2.4.0.1.nupkg.sha512",
+        "sharpdx.xaudio2.4.2.0.nupkg.sha512",
         "sharpdx.xaudio2.nuspec"
       ]
     },
-    "SharpDX.XInput/4.0.1": {
-      "sha512": "vDnp6CTVC9dKQHwLVF4GLNdCJqGMUuxyZLLlorDjgnVOOO7koPR20/tqt1A53gnNy/Id93Nzq7K2ILLvBQWvGQ==",
+    "SharpDX.XInput/4.2.0": {
+      "sha512": "mH3soea+aVUaTuFrkwx+zohklDvCczcgtuTiZJbOCyS5GZ/F9se4BsRJ86xTA9baf0drXYbZQj152PN7lnjiwg==",
       "type": "package",
-      "path": "sharpdx.xinput/4.0.1",
+      "path": "sharpdx.xinput/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/SharpDX.XInput.dll",
+        "lib/net40/SharpDX.XInput.pdb",
         "lib/net40/SharpDX.XInput.xml",
         "lib/net45/SharpDX.XInput.dll",
+        "lib/net45/SharpDX.XInput.pdb",
         "lib/net45/SharpDX.XInput.xml",
-        "lib/netcoreapp1.0/SharpDX.XInput.dll",
-        "lib/netcoreapp1.0/SharpDX.XInput.xml",
         "lib/netstandard1.1/SharpDX.XInput.dll",
+        "lib/netstandard1.1/SharpDX.XInput.pdb",
         "lib/netstandard1.1/SharpDX.XInput.xml",
         "lib/uap10.0/SharpDX.XInput.dll",
+        "lib/uap10.0/SharpDX.XInput.pdb",
         "lib/uap10.0/SharpDX.XInput.pri",
         "lib/uap10.0/SharpDX.XInput.xml",
-        "sharpdx.xinput.4.0.1.nupkg.sha512",
+        "sharpdx.xinput.4.2.0.nupkg.sha512",
         "sharpdx.xinput.nuspec"
       ]
     },
@@ -4229,23 +4162,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tyler\\.nuget\\packages\\": {},
+    "C:\\Users\\Tyler\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tyler\\Downloads\\CPI311_Fall2025\\CPI311_Fall2025\\GameEngine\\GameEngine.csproj",
+      "projectUniqueName": "C:\\Users\\Tyler\\Source\\Repos\\Monogame-Space-Mining-Sim-Demo\\GameEngine\\GameEngine.csproj",
       "projectName": "GameEngine",
-      "projectPath": "C:\\Users\\tyler\\Downloads\\CPI311_Fall2025\\CPI311_Fall2025\\GameEngine\\GameEngine.csproj",
-      "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tyler\\Downloads\\CPI311_Fall2025\\CPI311_Fall2025\\GameEngine\\obj\\",
+      "projectPath": "C:\\Users\\Tyler\\Source\\Repos\\Monogame-Space-Mining-Sim-Demo\\GameEngine\\GameEngine.csproj",
+      "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tyler\\Source\\Repos\\Monogame-Space-Mining-Sim-Demo\\GameEngine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4254,6 +4187,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4314,7 +4248,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
