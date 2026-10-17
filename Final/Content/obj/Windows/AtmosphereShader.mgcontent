@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/AtmosphereShader.fx</SourceFile>
+  <SourceTime>2025-12-20T18:16:27.0051446-07:00</SourceTime>
+  <DestFile>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/bin/Windows/AtmosphereShader.xnb</DestFile>
+  <DestTime>2025-12-20T18:17:36.5603317-07:00</DestTime>
+  <Importer>EffectImporter</Importer>
+  <ImporterTime>2025-06-02T03:31:02-07:00</ImporterTime>
+  <Processor>EffectProcessor</Processor>
+  <ProcessorTime>2025-06-02T03:31:02-07:00</ProcessorTime>
+  <Parameters>
+    <Key>DebugMode</Key>
+    <Value>Auto</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
