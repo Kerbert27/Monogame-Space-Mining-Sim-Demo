@@ -13,77 +13,7 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin ../../../../cockpit.fbm/screen_1.jpg
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../../cockpit.fbm/screen_1.jpg;Spaceship_interior.fbm/screen_1.jpg
 
-#begin ../../../../cockpit.fbm/spaceship_BaseColor.1001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../../cockpit.fbm/spaceship_BaseColor.1001.png;Spaceship_interior.fbm/spaceship_BaseColor.1001.png
-
-#begin ../../../../cockpit.fbm/spaceship_Emissive.1001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../../cockpit.fbm/spaceship_Emissive.1001.png;Spaceship_interior.fbm/spaceship_Emissive.1001.png
-
-#begin ../../../../cockpit.fbm/spaceship_Normal.1001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../../cockpit.fbm/spaceship_Normal.1001.png;Spaceship_interior.fbm/spaceship_Normal.1001.png
-
-#begin ../../../../cockpit.fbm/spaceship_OcclusionRoughnessMetallic.1001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../../cockpit.fbm/spaceship_OcclusionRoughnessMetallic.1001.png;Spaceship_interior.fbm/spaceship_OcclusionRoughnessMetallic.1001.png
-
-#begin ../../../../cockpit.fbm/spaceship_Opacity_1001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../../cockpit.fbm/spaceship_Opacity_1001.png;Spaceship_interior.fbm/spaceship_Opacity_1001.png
 
 #begin AtmosphereShader.fx
 /importer:EffectImporter

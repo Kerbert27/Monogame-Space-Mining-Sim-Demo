@@ -4,31 +4,21 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/../../../../cockpit.fbm/screen_1.jpg</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/../../../../cockpit.fbm/spaceship_BaseColor.1001.png</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/../../../../cockpit.fbm/spaceship_Emissive.1001.png</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/../../../../cockpit.fbm/spaceship_Normal.1001.png</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/../../../../cockpit.fbm/spaceship_OcclusionRoughnessMetallic.1001.png</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/../../../../cockpit.fbm/spaceship_Opacity_1001.png</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/cube.FBX</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/font.spritefont</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/PlanetShader.fx</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/planetTex.jpg</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/Rocks.fbx</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/skybox1.png</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/skybox3.png</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/Sphere.FBX</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/SphereHiRes.fbx</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/Square.png</File>
-    <File>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/tumblr_oqipige2lS1uo5d9jo1_1280_NRM.png</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/AtmosphereShader.fx</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/cube.FBX</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/font.spritefont</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/PlanetShader.fx</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/planetTex.jpg</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/Rocks.fbx</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/skybox1.png</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/skybox3.png</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/Sphere.FBX</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/SphereHiRes.fbx</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/Square.png</File>
+    <File>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/tumblr_oqipige2lS1uo5d9jo1_1280_NRM.png</File>
   </SourceFiles>
   <DestFiles>
-    <File>Spaceship_interior.fbm/screen_1.jpg</File>
-    <File>Spaceship_interior.fbm/spaceship_BaseColor.1001.png</File>
-    <File>Spaceship_interior.fbm/spaceship_Emissive.1001.png</File>
-    <File>Spaceship_interior.fbm/spaceship_Normal.1001.png</File>
-    <File>Spaceship_interior.fbm/spaceship_OcclusionRoughnessMetallic.1001.png</File>
-    <File>Spaceship_interior.fbm/spaceship_Opacity_1001.png</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

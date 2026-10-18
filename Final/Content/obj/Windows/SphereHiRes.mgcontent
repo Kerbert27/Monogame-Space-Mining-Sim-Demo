@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/SphereHiRes.fbx</SourceFile>
-  <SourceTime>2025-12-05T01:12:38.9746885-07:00</SourceTime>
-  <DestFile>C:/Users/tyler/Downloads/CPI311_Fall2025/CPI311_Fall2025/Final/Content/bin/Windows/SphereHiRes.xnb</DestFile>
-  <DestTime>2025-12-05T01:13:56.6923021-07:00</DestTime>
+  <SourceFile>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/SphereHiRes.fbx</SourceFile>
+  <SourceTime>2026-10-17T16:20:32.4384765-07:00</SourceTime>
+  <DestFile>C:/Users/Tyler/source/repos/Monogame-Space-Mining-Sim-Demo/Final/Content/bin/Windows/SphereHiRes.xnb</DestFile>
+  <DestTime>2026-10-17T16:59:49.8359884-07:00</DestTime>
   <Importer>FbxImporter</Importer>
   <ImporterTime>2025-06-02T03:31:02-07:00</ImporterTime>
   <Processor>ModelProcessor</Processor>
